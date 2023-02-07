@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        const hour = new Date().getHours();
+        let greeting;
+        if(hour<18){
+            greeting = "good day";
+        }
+        else{
+            greeting = "good evening";
+        }
+        document.getElementById("demo").innerHTML = greeting;
+    </script> -->
+   <!-- <script>
+     const hour=new Date().getHours();
+    let greeting;
+        if(hour<10){
+            greeting = "good morning";
+        }
+        else if(hour<16) {
+            greeting = "good day";
+        }
+        else{
+            greeting = "good evening";
+        }
+        document.getElementById("demo").innerHTML = greeting;
+   </script>

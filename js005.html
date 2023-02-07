@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>FOR LOOP</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+        const person = {fname:"john",iname:"doe",age:25};
+        let text = "";
+        for(let x in person) {
+        
+            text += person[x] + "   ";
+        }
+        document.getElementById("demo").innerHTML = text;
+      </script>
+    </body>
+</html>
